@@ -1,0 +1,24 @@
+# MacOS
+.DS_Store
+.issues/
+.local/
+deploy-local.sh
+
+# IDEs
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Build Tools
+build/
+.gradle/
+out/
+
+file:test-tmp
+test-values.yaml
+kafka.client.truststore.jks
+
+# Kiota-generated client code
+/src/main/java/aftn/client/
